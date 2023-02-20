@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografía</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Raleway:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="header">
+    <h1>Corazón de melón</h1>
+    <ul class="nav-bar">Biografía</ul>
+    <ul class="nav-bar">Personalidad</ul>
+    <ul class="nav-bar">Galeria</ul>
+  </header>
+  <main>
+    <section id="Biography">
+
+    </section>
+    <aside id="tableInfo">
+      <div class="container">
+        <h2>Castiel</h2>
+      </div>
+      <div id="tableTemp">
+        <tspan class="select" onclick="changeImage('insti'); changeTextStyle(this.class)">Instituto</tspan>
+        <tspan class="temp" onclick="changeImage('uni'); changeTextStyle(this.class)">Universidad</tspan>
+        <tspan class="temp" onclick="changeImage('amor'); changeTextStyle(this.class)">En el Amor</tspan>
+        <tspan class="temp" onclick="changeImage('manga'); changeTextStyle(this.class)">Manga</tspan>
+      </div>
+      <div id="imagesTemp">
+        <img id="imageOn" src="/Images/insti.webp" alt="">
+      </div>
+      <div class="container">
+        <h3>Descripción</h3>
+      </div>
+      <div id="description">
+        <div class="desSection">
+          <p class="subtitle">Género</p> <p class="txt">Masculino</p>
+        </div>
+        <hr>
+        <div class="desSection">
+          <p class="subtitle">Signo</p> <p class="txt">Leo</p>
+        </div>
+        <hr>
+        <div class="desSection">
+          <p class="subtitle">Altura</p> <p class="txt">1.80m</p>
+        </div>
+        <hr>
+        <div class="desSection">
+          <p class="subtitle">Peso</p> <p class="txt">80kg</p>
+        </div>
+        <hr>
+        <div class="desSection">
+          <p class="subtitle">Sangre</p> <p class="txt">0-</p>
+        </div>
+      </div>
+    
+        
+    </aside>
+  </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</html>
