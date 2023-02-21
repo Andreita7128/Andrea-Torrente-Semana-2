@@ -60,6 +60,7 @@ h1 {
 }
 
 p {
+    font-size: 12pt;
     font-family: 'Raleway',
     sans-serif;
     margin-bottom: 30px;
@@ -183,12 +184,7 @@ h2 {
     float: left;
 }
 
-.carousel-inner {
-    width: 70%;
-   margin: 0px;
-}
-
-.carousel-item {
-    float:none
-   
+footer {
+    width: 100%;
+    float: left;
 }
