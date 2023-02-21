@@ -4,12 +4,14 @@ function changeImage(temp) {
     image.src = `/Images/${temp}.webp`
 }
 
-selectTemp = document.getElementsByClassName('select')
 
-function changeTextStyle(nameClass){
-    if(nameClass === 'select'){
-        selectTemp.class = "temp"
-    } else {
-        selectTemp.class = "select"
+function changeClass(event) {
+    let spans = document.getElementsByClassName("try");
+    for (let i = 0; i < spans.length; i++) {
+        spans[i].className = "try temp"
+        
+    }
+    if (event.target.classList.contains("temp")){
+        event.target.className = "try select"
     }
 }

@@ -6,11 +6,13 @@
     width: 100%;
     height: 100px;
     background-color: #C22C2C;
+    padding-right: 50px;
 }
 
 main {
     width: 100%;
-    padding: 20px;
+    height: 100%;
+    padding: 50px;
 }
 
 h1 {
@@ -22,24 +24,50 @@ h1 {
 
 }
 
-.nav-bar {
+.nav-item {
     color: white;
-    font-size: 16pt;
+    font-size: 14pt;
     font-family: 'Raleway',
         sans-serif;
     margin: 0px;
 }
 
+.nav-link {
+    color: white;
+    font-family: 'Raleway',
+        sans-serif;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: 0.375rem;
+    --bs-nav-pills-link-active-color: #0D0628;
+    --bs-nav-pills-link-active-bg: white;
+}
+
+.nav {
+    --bs-link-hover-color: black;
+}
+
 #Biography {
-    width: 75%;
-    height: 400px;
+    width: 70%;
+    height: 100%;
     background-color: white;
     float: left;
 }
 
+p {
+    font-family: 'Raleway',
+    sans-serif;
+    margin-bottom: 30px;
+}
+
 #tableInfo {
-    width: 24%;
-    height: 800px;
+    width: 25%;
+    height: 100%;
     border-style: solid;
     border-width: 1px;
     border-color: #0D0628;
@@ -47,7 +75,7 @@ h1 {
     float: right;
 }
 
-.container {
+.containerTab {
     display: flex;
     background-color: #0D0628;
     height: 55px;
@@ -55,7 +83,7 @@ h1 {
     align-items: center;
 }
 
-h2 {
+h3 {
     margin: 0px;
     font-family: 'Raleway',
         sans-serif;
@@ -98,7 +126,7 @@ h2 {
     width: 90%;
 }
 
-h3 {
+h4 {
     margin: 0px;
     font-size: 16pt;
     font-family: 'Raleway',
@@ -135,4 +163,32 @@ hr {
     font-size: 12pt;
     font-family: 'Raleway',
         sans-serif;
+}
+
+.logoCdm {
+    width: 80%;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+h2 {
+    color: #0D0628;
+    font-family: 'Raleway',
+        sans-serif;
+}
+
+#galería {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.carousel-inner {
+    width: 70%;
+   margin: 0px;
+}
+
+.carousel-item {
+    float:none
+   
 }

@@ -17,58 +17,173 @@
 </head>
 
 <body>
-  <header id="header">
-    <h1>Corazón de melón</h1>
-    <ul class="nav-bar">Biografía</ul>
-    <ul class="nav-bar">Personalidad</ul>
-    <ul class="nav-bar">Galeria</ul>
-  </header>
-  <main>
-    <section id="Biography">
 
-    </section>
+  <header id="header">
+
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+      <h1>Corazón de melón</h1>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Biografía</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Tabla de información</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Galeria</a></li>
+    </ul>
+
+  </header>
+
+  <main>
     <aside id="tableInfo">
-      <div class="container">
-        <h2>Castiel</h2>
+      <div class="containerTab">
+        <h3>Castiel</h3>
       </div>
       <div id="tableTemp">
-        <tspan class="select" onclick="changeImage('insti'); changeTextStyle(this.class)">Instituto</tspan>
-        <tspan class="temp" onclick="changeImage('uni'); changeTextStyle(this.class)">Universidad</tspan>
-        <tspan class="temp" onclick="changeImage('amor'); changeTextStyle(this.class)">En el Amor</tspan>
-        <tspan class="temp" onclick="changeImage('manga'); changeTextStyle(this.class)">Manga</tspan>
+        <tspan class="try select" onclick="changeImage('insti'); changeClass(event)">Instituto</tspan>
+        <tspan class="try temp" onclick="changeImage('uni'); changeClass(event)">Universidad</tspan>
+        <tspan class="try temp" onclick="changeImage('amor'); changeClass(event)">En el Amor</tspan>
+        <tspan class="try temp" onclick="changeImage('manga'); changeClass(event)">Manga</tspan>
       </div>
       <div id="imagesTemp">
         <img id="imageOn" src="/Images/insti.webp" alt="">
       </div>
-      <div class="container">
-        <h3>Descripción</h3>
+      <div class="containerTab">
+        <h4>Descripción</h4>
       </div>
       <div id="description">
         <div class="desSection">
-          <p class="subtitle">Género</p> <p class="txt">Masculino</p>
+          <p class="subtitle">Género</p>
+          <p class="txt">Masculino</p>
         </div>
         <hr>
         <div class="desSection">
-          <p class="subtitle">Signo</p> <p class="txt">Leo</p>
+          <p class="subtitle">Signo</p>
+          <p class="txt">Leo</p>
         </div>
         <hr>
         <div class="desSection">
-          <p class="subtitle">Altura</p> <p class="txt">1.80m</p>
+          <p class="subtitle">Altura</p>
+          <p class="txt">1.80m</p>
         </div>
         <hr>
         <div class="desSection">
-          <p class="subtitle">Peso</p> <p class="txt">80kg</p>
+          <p class="subtitle">Peso</p>
+          <p class="txt">80kg</p>
         </div>
         <hr>
         <div class="desSection">
-          <p class="subtitle">Sangre</p> <p class="txt">0-</p>
+          <p class="subtitle">Sangre</p>
+          <p class="txt">0-</p>
         </div>
       </div>
-    
-        
     </aside>
+    <section id="Biography">
+      <p>
+        <b>Castiel Veilmont</b> es uno de los chicos ligables principales en el manga y juego
+        <i>Corazón de melón.</i>
+        Su fecha de nacimiento es el 12 de agosto, hijo único de Jean-Louis Veilmont, piloto de vuelo,
+        y Valerie, azafata de avión. Pertenece a una familia de clase media-alta, sin embargo, vive solo,
+        ya que sus padres viajan constantemente por su trabajo, pero, mantiene una relación cercana con estos.
+        Su banda favorita es Winged Skulls (una banda inventada para el juego), perteneciente al género del rock.
+      </p>
+
+      <p>
+        De su infancia no se conoce mucho, salvo que su madre solía llamarlo Cassy, que su película favorita
+        era el Rey León y que, estudió en el
+        mismo lugar que los mellizos
+        <i> Nathaniel y Ámber,</i> personajes del manga y del juego también.
+      </p>
+
+      <p>
+        Tiene un mejor amigo llamado
+        <i>Lysandro Ainsworth,</i> con quien tuvo una banda durante el instituto, siendo <b>Castiel</b> el guitarrista.
+      </p>
+
+      <p>
+        A continución se dará una breve descripción de la historia de <b>Castiel</b>, siendo su ruta en cada temporada
+        del juego:
+      </p>
+
+      <div class="container text-left">
+        <div class="row align-items-start">
+          <div class="col">
+            <a target="_blank" href="https://www.corazondemelon.es/high-school-life#intro">
+              <img class="logoCdm" src="https://www.corazondemelon.es/image/i18n/es/logo-as/as-s1.png" alt="">
+            </a>
+            <p>
+              Esta temporada se desarrolla en el instituto Sweet Amoris donnde Castiel estudiaba y se mostraba frío 
+              distante con las personas, con una actitud rebelde y burlesca. Durante su
+              arco de desarrollo, se descubre que tuvo una novia llamada Debrah, quien lo engañó, engatusó y utilizó. Durante esa
+              época, Castiel llevaba el cabello con su color natural que es negro y, también se conoce que la razón
+              por la cual detesta a Nathaniel es un malentendido comenzado por Debrah.
+            </p>
+
+            <p>
+              Cuando Debrah deja a Castiel, este se vuelve borde, un tanto rebelde con las personas a su alrededor 
+              y comienza a teñirse el cabello de rojo. Finalizando el arco, Castiel se entera de todo lo que Debrah había hecho y su relación con
+              Nathaniel mejora paulatinamente, siendo la cumbre de esta, el arco de Nathaniel, donde Castiel se
+              muestra como un gran apoyo para él.
+            </p>
+
+            <p>
+              Durante los últimos episodios de esta temporada se puede observar a un Castiel, más alegre y
+              sociable, que se preocupa por los demás, sigue teniendo una actitud sarcástica y mantiene su
+              “status” de rebelde, aunque al final llega a obtener un reconocimiento por ser uno de los dos
+              estudiantes que obtuvieron las mejores notas de la promoción. Parte de su cambio de actitud, se
+              debe a su noviazgo con la protagonista llamada Sucrette, quien fue una gran influencia y apoyo.
+            </p>
+          </div>
+          <div class="col">
+            <a target="_blank" href="https://www.corazondemelon.es/campus-life">
+              <img class="logoCdm" src="https://www.corazondemelon.es/image/i18n/es/logo-as/as-s2.png" alt="">
+            </a>
+          </div>
+          <div class="col">
+            <a target="_blank" href="https://www.corazondemelon.es/love-life">
+              <img class="logoCdm" src="https://www.corazondemelon.es/image/i18n/es/logo-as/as-s3.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galería">
+      <h2>Galería de Imágenes</h2>
+  
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://assets3.corazondemelon.es/picture/web/normal/no_no_no_no/137-699aff50cf7f2d96~1526456092.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://assets3.corazondemelon.es/picture/web/normal/no_no_no_no/152-1ed94d4c517e3fb9~1526456093.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+    </section>
+    
   </main>
   </div>
+
+  
 
   <script src="script.js"></script>
 </body>
